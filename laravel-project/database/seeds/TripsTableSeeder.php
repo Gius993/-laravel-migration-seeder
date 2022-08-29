@@ -18,7 +18,7 @@ class TripsTableSeeder extends Seeder
             $new_trip = new Trip();
             //popolo la riga
             $new_trip->locality = $faker->city();
-            $new_trip->$table = 'è un posto molto bello';
+            $new_trip->description = 'è un posto molto bello';
              //salvo la riga
              $new_trip->save();
         }
